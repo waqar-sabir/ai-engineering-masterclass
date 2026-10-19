@@ -12,3 +12,7 @@ Work through the proposed exercises in order. The first two exercise briefs are 
 8. [Voice Ai Architecture](08-voice-ai-architecture/README.md)
 9. [Evaluation Platform](09-evaluation-platform/README.md)
 10. [Production Ai Saas](10-production-ai-saas/README.md)
+
+## Phase companions
+
+- [Phase 2 versioned embedding search](phase-02-embedding-search/README.md): design materials In Review; learner solution Planned. This companion supplements the numbered path.

@@ -1,6 +1,6 @@
 # LLM application architecture
 
-Status: In Review (Phase 1 exercise). No application implementation is included.
+Status: Approved (Phase 1 exercise). No application implementation is included.
 
 [Phase 1](../../phases/phase-01-python-llm-foundations/README.md) · [Gateway case study](../02-inference-gateway/README.md)
 

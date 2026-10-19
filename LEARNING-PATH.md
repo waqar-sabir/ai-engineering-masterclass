@@ -29,4 +29,8 @@ flowchart TD
 
 ## Phase 1 materials
 
-Start with the [seven-day study plan](phases/phase-01-python-llm-foundations/study-plan.md). Phase 1 materials are In Review. Learner completion and implementation remain Planned; Phase 2 requires explicit approval.
+Start with the [seven-day study plan](phases/phase-01-python-llm-foundations/study-plan.md). Phase 1 materials are In Review. Learner completion and implementation remain Planned; Phase 2 materials were explicitly requested and are now available; no Phase 1 learner pass is implied.
+
+## Phase 2 materials
+
+Continue with the [Phase 2 syllabus](phases/phase-02-llm-internals-embeddings/syllabus.md) and [24.5-hour study plan](phases/phase-02-llm-internals-embeddings/study-plan.md). Phase 2 materials are In Review; learner work remains Planned. Detailed Phase 3 materials await explicit instruction.

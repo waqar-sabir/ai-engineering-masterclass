@@ -1,6 +1,6 @@
 # AI Research Assistant — Phase 1 specification
 
-Status: In Review (specification). Implementation: Planned.
+Status: Approved (specification). Implementation: Planned.
 
 [Phase 1](../../phases/phase-01-python-llm-foundations/README.md) · [Project overview](README.md)
 

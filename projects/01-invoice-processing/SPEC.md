@@ -1,6 +1,6 @@
 # Invoice Processing Workflow — Phase 1 lab specification
 
-Material status: In Review. Implementation: Planned.
+Material status: Approved. Implementation: Planned.
 
 [Lab 4 instructions](../../phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-02-structured-output-tool-contracts/labs/lab-04.md) · [Phase 1](../../phases/phase-01-python-llm-foundations/README.md)
 

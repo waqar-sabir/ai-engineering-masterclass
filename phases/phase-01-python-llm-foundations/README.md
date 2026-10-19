@@ -6,7 +6,7 @@
 
 Days 1–7 · Suggested daily timeboxes: 25 hours total · Foundation to intermediate.
 
-**Material status: In Review. Learner completion: Planned. Implementation: Planned.** This phase contains teaching material only. Code blocks and commands are examples and future exercises, not a bundled application.
+**Material status: Approved. Learner completion: Planned. Implementation: Planned.** This phase contains teaching material only. Code blocks and commands are examples and future exercises, not a bundled application.
 
 Build the knowledge needed to design a tested CLI Research Assistant and a text-only Invoice Extraction workflow. Embeddings, RAG, vector databases, autonomous agent loops, and LangGraph remain in later phases.
 
@@ -89,4 +89,4 @@ Pass: 75/100 overall and at least 20/35 on coding, with no committed secret. No 
 
 ## Next phase
 
-[Phase 2 overview](../phase-02-llm-internals-embeddings/README.md). Phase 2 remains Planned; do not generate it until Phase 1 is explicitly approved.
+[Phase 2 overview](../phase-02-llm-internals-embeddings/README.md). Phase 2 materials are now Approved following the user’s explicit request to continue. Phase 1 learner completion is still Planned.

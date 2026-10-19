@@ -1,6 +1,6 @@
 # Multi-provider LLM inference gateway
 
-Status: In Review (Phase 1 case study). Design and implementation exercise only; no gateway is implemented.
+Status: Approved (Phase 1 case study). Design and implementation exercise only; no gateway is implemented.
 
 [Phase 1](../../phases/phase-01-python-llm-foundations/README.md) · [System design path](../README.md)
 

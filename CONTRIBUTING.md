@@ -1,6 +1,6 @@
 # Contributing
 
-The repository foundation belongs on `main`. Phase 1 resources and teaching materials have been requested on `course/phase-01-foundations`. Application implementation is deferred by the owner. Create phase branches only when work begins:
+The repository foundation belongs on `main`. Phase 1 materials used `course/phase-01-foundations`; the current Phase 2 materials use `course/phase-02-embeddings`. Application implementation is deferred by the owner. Create a new phase branch only when that phase is requested; do not pre-create later branches. Create phase branches only when work begins:
 
 - `course/phase-01-foundations`
 - `course/phase-02-embeddings`
@@ -13,7 +13,7 @@ The repository foundation belongs on `main`. Phase 1 resources and teaching mate
 - `course/phase-09-llmops`
 - `course/phase-10-capstone`
 
-For each phase: generate curriculum, lectures and resources; add labs and assessments; implement the agreed projects; validate Markdown links; run applicable tests; review the phase; wait for explicit owner approval; merge only after approval. Record the approval in the PR. Do not create all branches in advance.
+Current owner-directed workflow: prepare curriculum, lectures, resources, guided lab instructions, assessments, project specifications, and system design one phase at a time. Validate Markdown/navigation and review the material package. Wait for explicit owner approval before advancing. All implementations stay Planned until the course materials are ready and the owner requests implementation. During that later pass, implement the agreed projects and run applicable code tests. Merge phase changes only after approval. Record the approval in the PR. Do not create all branches in advance.
 
 Use the [templates](templates/README.md), relative links, and factual status labels. Keep API keys, private data, model weights, and local environments out of Git. Use `.env.example` with empty values and document every variable. Add deterministic tests with code; paid integrations must be opt-in. Run the checks in [environment setup](docs/environment-setup.md).
 

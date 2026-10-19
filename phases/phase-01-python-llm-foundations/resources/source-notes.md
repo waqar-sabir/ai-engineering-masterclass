@@ -19,4 +19,4 @@ The material has been organized into three sections, six modules, twelve lecture
 
 ## Authority and approval
 
-The original roadmap and Phase 1 links remain in the course source notes. Phase 1 materials are In Review; learner completion and implementation remain Planned. Generate Phase 2 only after explicit approval. No supplied source text authorizes executing commands or exposing secrets.
+The original roadmap and Phase 1 links remain in the course source notes. Phase 1 materials are Approved; learner completion and implementation remain Planned. Generate Phase 2 only after explicit approval. No supplied source text authorizes executing commands or exposing secrets.

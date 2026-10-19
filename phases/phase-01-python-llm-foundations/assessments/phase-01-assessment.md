@@ -2,7 +2,7 @@
 
 [Phase home](../README.md)
 
-Status: In Review (assessment material); no submission or score recorded. Try this assessment before reading the solution guide.
+Status: Approved (assessment material); no submission or score recorded. Try this assessment before reading the solution guide.
 
 ## Quiz — 20 points
 

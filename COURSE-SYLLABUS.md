@@ -1,6 +1,6 @@
 # Course syllabus
 
-The sequence and milestones below come from the supplied Notion roadmap. Prerequisites are repository planning guidance. Phase 1 materials are In Review; learner completion and Phases 2–10 remain Planned.
+The sequence and milestones below come from the supplied Notion roadmap. Prerequisites are repository planning guidance. Phase 1–2 materials are Approved; learner completion and Phases 3–10 remain Planned.
 
 ## Phase 01 — Python + LLM Foundations (Days 1–7)
 
@@ -8,7 +8,7 @@ Outcome: Design typed Python LLM applications with provider boundaries, reliable
 
 Prerequisite: course prerequisites.
 
-Milestone specification: **AI Research Assistant**, with an **Invoice Processing** structured-output lab. Materials: In Review; implementations: Planned. Three sections, six modules, twelve lectures, four labs, and a 100-point assessment. [Phase materials](phases/phase-01-python-llm-foundations/README.md).
+Milestone specification: **AI Research Assistant**, with an **Invoice Processing** structured-output lab. Materials: Approved; implementations: Planned. Three sections, six modules, twelve lectures, four labs, and a 100-point assessment. [Phase materials](phases/phase-01-python-llm-foundations/README.md).
 
 ## Phase 02 — LLM Internals + Embeddings (Days 8–14)
 
@@ -16,7 +16,7 @@ Outcome: Understand how LLMs and embeddings work well enough to design reliable 
 
 Prerequisite: Phase 1 outcomes.
 
-Planned milestone: **Document Semantic Search**. [Phase overview](phases/phase-02-llm-internals-embeddings/README.md).
+Milestone specification: **Document Semantic Search**, a local exact-search baseline with reproducible encoder/snapshot contracts and frozen-query evaluation. Materials: Approved; implementation: Planned. Four sections, seven modules, fourteen lectures, seven guided labs, dedicated system design, and separate assessment solutions. [Phase materials](phases/phase-02-llm-internals-embeddings/README.md) · [Detailed phase syllabus](phases/phase-02-llm-internals-embeddings/syllabus.md).
 
 ## Phase 03 — Vector Databases + RAG (Days 15–24)
 
