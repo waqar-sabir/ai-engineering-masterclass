@@ -1,0 +1,9 @@
+name: Bug report
+description: Report a reproducible tooling or project defect
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Commands, environment, expected and actual results
+    validations:
+      required: true

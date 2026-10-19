@@ -1,0 +1,16 @@
+name: Course content request
+description: Report a content gap or correction
+title: "[Content] "
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Phase, module, and file
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Expected outcome and evidence
+    validations:
+      required: true

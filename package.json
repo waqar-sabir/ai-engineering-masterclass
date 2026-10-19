@@ -1,0 +1,21 @@
+{
+  "name": "ai-engineering-masterclass",
+  "private": true,
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "workspaces": [
+    "projects/*",
+    "shared/typescript/*"
+  ],
+  "scripts": {
+    "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
+    "check:links": "python3 scripts/check_links.py",
+    "lint:ts": "node scripts/run_typescript.mjs lint",
+    "test:ts": "node scripts/run_typescript.mjs test"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.23.3"
+  }
+}
