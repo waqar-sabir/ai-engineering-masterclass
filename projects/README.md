@@ -1,6 +1,6 @@
 # Project catalog
 
-All projects are Planned. Folder numbers identify projects, not phases. Roadmap milestone names are preserved in the [syllabus](../COURSE-SYLLABUS.md); detailed mappings require phase review.
+All project implementations are Planned. Phase 1 Research Assistant and Invoice Processing specifications are In Review. Folder numbers identify projects, not phases. Roadmap milestone names are preserved in the [syllabus](../COURSE-SYLLABUS.md); detailed mappings require phase review.
 
 - [Invoice Processing Workflow](01-invoice-processing/README.md)
 - [Research Analyst Agent](02-research-analyst/README.md)

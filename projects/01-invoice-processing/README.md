@@ -1,7 +1,7 @@
 # Invoice Processing Workflow
 
-Status: **Planned**. Specification scaffold only; no implementation.
+Material status: In Review. Implementation: Planned.
 
-[Project catalog](../README.md) · [Course](../../README.md)
+[Phase 1 Lab 4](../../phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-02-structured-output-tool-contracts/labs/lab-04.md) · [Specification](SPEC.md) · [Project catalog](../README.md)
 
-Phase assignment: pending review. Use [SPEC.md](SPEC.md) to develop the specification alongside the approved phase.
+A text-only extraction and deterministic arithmetic exercise. This directory contains course documentation only. Vision/OCR and production invoice automation remain optional later extensions.

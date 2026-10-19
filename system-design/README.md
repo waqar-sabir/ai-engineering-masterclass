@@ -1,6 +1,6 @@
 # System design learning path
 
-Work through the proposed exercises in order. Each remains Planned until its requirements, diagram, trade-offs, and review evidence are approved.
+Work through the proposed exercises in order. The first two exercise briefs are In Review as Phase 1 materials. All learner solutions remain Planned until reviewed; exercises 03–10 remain Planned.
 
 1. [Llm Application Architecture](01-llm-application-architecture/README.md)
 2. [Inference Gateway](02-inference-gateway/README.md)

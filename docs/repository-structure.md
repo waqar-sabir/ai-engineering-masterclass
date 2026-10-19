@@ -1,6 +1,6 @@
 # Repository structure
 
-Foundation file inventory (generated during setup). Dependencies and Git internals are omitted.
+Current file inventory, including Phase 1 materials. Dependencies and Git internals are omitted. Application implementation is deferred.
 
 ```text
 .editorconfig
@@ -26,9 +26,55 @@ docs/curriculum-sources.md
 docs/environment-setup.md
 docs/glossary.md
 docs/prerequisites.md
+docs/repository-structure.md
+docs/validation.md
 package-lock.json
 package.json
 phases/phase-01-python-llm-foundations/README.md
+phases/phase-01-python-llm-foundations/assessments/phase-01-assessment.md
+phases/phase-01-python-llm-foundations/assessments/solution-guide.md
+phases/phase-01-python-llm-foundations/completion-checklist.md
+phases/phase-01-python-llm-foundations/resources/README.md
+phases/phase-01-python-llm-foundations/resources/source-notes.md
+phases/phase-01-python-llm-foundations/sections/section-01-ai-engineering-foundations/README.md
+phases/phase-01-python-llm-foundations/sections/section-01-ai-engineering-foundations/modules/module-01-llm-application-lifecycle/README.md
+phases/phase-01-python-llm-foundations/sections/section-01-ai-engineering-foundations/modules/module-01-llm-application-lifecycle/assessments/knowledge-check.md
+phases/phase-01-python-llm-foundations/sections/section-01-ai-engineering-foundations/modules/module-01-llm-application-lifecycle/labs/lab-01.md
+phases/phase-01-python-llm-foundations/sections/section-01-ai-engineering-foundations/modules/module-01-llm-application-lifecycle/lectures/lecture-01-what-an-ai-engineer-builds.md
+phases/phase-01-python-llm-foundations/sections/section-01-ai-engineering-foundations/modules/module-01-llm-application-lifecycle/lectures/lecture-02-llm-request-lifecycle-tokens-and-model-access.md
+phases/phase-01-python-llm-foundations/sections/section-01-ai-engineering-foundations/modules/module-01-llm-application-lifecycle/resources/README.md
+phases/phase-01-python-llm-foundations/sections/section-02-production-python/README.md
+phases/phase-01-python-llm-foundations/sections/section-02-production-python/modules/module-01-types-boundaries-configuration/README.md
+phases/phase-01-python-llm-foundations/sections/section-02-production-python/modules/module-01-types-boundaries-configuration/assessments/knowledge-check.md
+phases/phase-01-python-llm-foundations/sections/section-02-production-python/modules/module-01-types-boundaries-configuration/lectures/lecture-03-python-project-structure-for-an-experienced-engineer.md
+phases/phase-01-python-llm-foundations/sections/section-02-production-python/modules/module-01-types-boundaries-configuration/lectures/lecture-04-configuration-secrets-and-validation.md
+phases/phase-01-python-llm-foundations/sections/section-02-production-python/modules/module-01-types-boundaries-configuration/resources/README.md
+phases/phase-01-python-llm-foundations/sections/section-02-production-python/modules/module-02-http-async-io/README.md
+phases/phase-01-python-llm-foundations/sections/section-02-production-python/modules/module-02-http-async-io/assessments/knowledge-check.md
+phases/phase-01-python-llm-foundations/sections/section-02-production-python/modules/module-02-http-async-io/labs/lab-02.md
+phases/phase-01-python-llm-foundations/sections/section-02-production-python/modules/module-02-http-async-io/lectures/lecture-05-http-client-engineering.md
+phases/phase-01-python-llm-foundations/sections/section-02-production-python/modules/module-02-http-async-io/lectures/lecture-06-async-python-and-bounded-concurrency.md
+phases/phase-01-python-llm-foundations/sections/section-02-production-python/modules/module-02-http-async-io/resources/README.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/README.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-01-provider-boundaries-streaming/README.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-01-provider-boundaries-streaming/assessments/knowledge-check.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-01-provider-boundaries-streaming/labs/lab-03.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-01-provider-boundaries-streaming/lectures/lecture-07-llm-apis-and-provider-abstraction.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-01-provider-boundaries-streaming/lectures/lecture-08-streaming-cancellation-and-user-experience.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-01-provider-boundaries-streaming/resources/README.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-02-structured-output-tool-contracts/README.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-02-structured-output-tool-contracts/assessments/knowledge-check.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-02-structured-output-tool-contracts/labs/lab-04.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-02-structured-output-tool-contracts/lectures/lecture-09-pydantic-json-schema-and-structured-model-output.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-02-structured-output-tool-contracts/lectures/lecture-10-function-tool-calling-as-a-controlled-protocol.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-02-structured-output-tool-contracts/resources/README.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-03-prompt-engineering/README.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-03-prompt-engineering/assessments/knowledge-check.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-03-prompt-engineering/lectures/lecture-11-zero-shot-few-shot-delimiters-and-prompt-contracts.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-03-prompt-engineering/lectures/lecture-12-prompt-versioning-and-regression-testing.md
+phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-03-prompt-engineering/resources/README.md
+phases/phase-01-python-llm-foundations/study-plan.md
+phases/phase-01-python-llm-foundations/validation.md
 phases/phase-02-llm-internals-embeddings/README.md
 phases/phase-03-vector-databases-rag/README.md
 phases/phase-04-advanced-rag/README.md
@@ -90,5 +136,4 @@ templates/resources-template.md
 templates/section-template/README.md
 templates/system-design-template.md
 uv.lock
-docs/repository-structure.md
 ```

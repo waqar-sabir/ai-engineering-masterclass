@@ -1,14 +1,14 @@
 # Course syllabus
 
-The sequence and milestones below come from the supplied Notion roadmap. Prerequisites are repository planning guidance. All phases are Planned.
+The sequence and milestones below come from the supplied Notion roadmap. Prerequisites are repository planning guidance. Phase 1 materials are In Review; learner completion and Phases 2–10 remain Planned.
 
 ## Phase 01 — Python + LLM Foundations (Days 1–7)
 
-Outcome: Become comfortable building AI applications in Python.
+Outcome: Design typed Python LLM applications with provider boundaries, reliable HTTP/async I/O, structured contracts, evidence checks, and versioned prompts.
 
 Prerequisite: course prerequisites.
 
-Planned milestone: **AI Research Assistant**. [Phase overview](phases/phase-01-python-llm-foundations/README.md).
+Milestone specification: **AI Research Assistant**, with an **Invoice Processing** structured-output lab. Materials: In Review; implementations: Planned. Three sections, six modules, twelve lectures, four labs, and a 100-point assessment. [Phase materials](phases/phase-01-python-llm-foundations/README.md).
 
 ## Phase 02 — LLM Internals + Embeddings (Days 8–14)
 
