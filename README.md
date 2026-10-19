@@ -22,8 +22,8 @@ Python, TypeScript, PostgreSQL, pgvector, Qdrant, LangChain, LangGraph, MCP, Fas
 
 | Phase | Days | Topic | Status |
 | --- | --- | --- | --- |
-| 01 | 1–7 | [Python + LLM Foundations](phases/phase-01-python-llm-foundations/README.md) | In Review |
-| 02 | 8–14 | [LLM Internals + Embeddings](phases/phase-02-llm-internals-embeddings/README.md) | Planned |
+| 01 | 1–7 | [Python + LLM Foundations](phases/phase-01-python-llm-foundations/README.md) | Approved |
+| 02 | 8–14 | [LLM Internals + Embeddings](phases/phase-02-llm-internals-embeddings/README.md) | Approved |
 | 03 | 15–24 | [Vector Databases + RAG](phases/phase-03-vector-databases-rag/README.md) | Planned |
 | 04 | 25–31 | [Advanced RAG](phases/phase-04-advanced-rag/README.md) | Planned |
 | 05 | 32–42 | [AI Agents](phases/phase-05-ai-agents/README.md) | Planned |
@@ -46,12 +46,14 @@ See the [complete repository file inventory](docs/repository-structure.md).
 1. Follow [environment setup](docs/environment-setup.md).
 2. Read the [course guide](docs/course-guide.md).
 3. Review [progress](PROGRESS.md) and the Phase 1 overview.
-4. Open [Phase 1 materials](phases/phase-01-python-llm-foundations/README.md) and follow its seven-day study plan.
+4. Follow the [Phase 1 study plan](phases/phase-01-python-llm-foundations/study-plan.md), then the [Phase 2 study plan](phases/phase-02-llm-internals-embeddings/study-plan.md).
 
 ## Course progress
 
-Phase 1 materials are **In Review**: 12 lectures, four lab guides, curated resources, assessments, and project/design specifications. Phase 1 learner completion and all project implementations remain **Planned**. Phases 2–10 remain **Planned**. See [progress tracking](PROGRESS.md).
+Phase 1 and Phase 2 materials are **Approved**. Phase 2 adds 14 lectures, seven guided labs, module/final assessments with separate solutions, a document semantic-search project brief, and an embedding-search architecture case study. All learner completion and project implementations remain **Planned**. Phases 3–10 remain **Planned**. See [progress tracking](PROGRESS.md).
 
 ## Contributing and license
 
 Follow [contribution and review rules](CONTRIBUTING.md). This repository uses the [MIT License](LICENSE).
+
+Material approvals are tracked separately from implementation in [approval records](docs/material-approvals.md). All implementations remain Planned until course materials are ready.

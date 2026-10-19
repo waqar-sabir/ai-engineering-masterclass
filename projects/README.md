@@ -13,3 +13,7 @@ All project implementations are Planned. Phase 1 Research Assistant and Invoice 
 - [Agent Evaluation Dashboard](09-agent-evaluation-dashboard/README.md)
 - [Voice Booking Agent](10-voice-booking-agent/README.md)
 - [Production AI SaaS Capstone](final-ai-saas-capstone/README.md)
+
+## Additional roadmap milestones
+
+- [Phase 2 Document Semantic Search](phase-02-document-semantic-search/README.md): specification In Review; implementation Planned. This supplements the ten named portfolio projects without renumbering them.

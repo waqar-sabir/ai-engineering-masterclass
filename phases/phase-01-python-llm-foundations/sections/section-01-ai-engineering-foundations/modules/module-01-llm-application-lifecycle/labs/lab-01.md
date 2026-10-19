@@ -2,7 +2,7 @@
 
 [Phase home](../../../../../README.md) · [Module](../README.md)
 
-Status: In Review (instructions). Learner execution: Planned.
+Status: Approved (instructions). Learner execution: Planned.
 
 ## Objectives and prerequisites
 

@@ -2,7 +2,7 @@
 
 [Phase home](../../README.md)
 
-Material status: In Review. Learner completion: Planned.
+Material status: Approved. Learner completion: Planned.
 
 ## Modules
 

@@ -1,6 +1,6 @@
 # Research Analyst Agent — AI Research Assistant
 
-Material status: In Review. Implementation: Planned.
+Material status: Approved. Implementation: Planned.
 
 [Phase 1](../../phases/phase-01-python-llm-foundations/README.md) · [Full project specification](SPEC.md) · [Project catalog](../README.md)
 

@@ -4,7 +4,7 @@
 
 ## Lecture metadata
 
-ID: P01-L09 · Duration: 90 minutes · Material status: In Review · Learner completion: Planned.
+ID: P01-L09 · Duration: 90 minutes · Material status: Approved · Learner completion: Planned.
 
 ## Learning objectives
 

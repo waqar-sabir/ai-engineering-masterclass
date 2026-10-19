@@ -1,6 +1,6 @@
 # Repository structure
 
-Current file inventory, including Phase 1 materials. Dependencies and Git internals are omitted. Application implementation is deferred.
+Current course foundation and Phase 1–2 material inventory. Installed dependencies and Git internals are omitted. Application implementation is deferred.
 
 ```text
 .editorconfig
@@ -28,6 +28,7 @@ docs/glossary.md
 docs/prerequisites.md
 docs/repository-structure.md
 docs/validation.md
+docs/workspace-continuity.md
 package-lock.json
 package.json
 phases/phase-01-python-llm-foundations/README.md
@@ -76,6 +77,65 @@ phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-pr
 phases/phase-01-python-llm-foundations/study-plan.md
 phases/phase-01-python-llm-foundations/validation.md
 phases/phase-02-llm-internals-embeddings/README.md
+phases/phase-02-llm-internals-embeddings/assessments/module-solutions.md
+phases/phase-02-llm-internals-embeddings/assessments/phase-02-assessment.md
+phases/phase-02-llm-internals-embeddings/assessments/solution-guide.md
+phases/phase-02-llm-internals-embeddings/completion-checklist.md
+phases/phase-02-llm-internals-embeddings/project/README.md
+phases/phase-02-llm-internals-embeddings/resources/README.md
+phases/phase-02-llm-internals-embeddings/resources/lecture-resource-map.md
+phases/phase-02-llm-internals-embeddings/resources/math-primer.md
+phases/phase-02-llm-internals-embeddings/resources/source-notes.md
+phases/phase-02-llm-internals-embeddings/sections/section-01-llm-internals/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-01-llm-internals/modules/module-01-training-tokenization/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-01-llm-internals/modules/module-01-training-tokenization/assessments/knowledge-check.md
+phases/phase-02-llm-internals-embeddings/sections/section-01-llm-internals/modules/module-01-training-tokenization/labs/lab-01.md
+phases/phase-02-llm-internals-embeddings/sections/section-01-llm-internals/modules/module-01-training-tokenization/lectures/lecture-01-training-inference-and-the-next-token-objective.md
+phases/phase-02-llm-internals-embeddings/sections/section-01-llm-internals/modules/module-01-training-tokenization/lectures/lecture-02-tokenization-context-budgets-and-truncation.md
+phases/phase-02-llm-internals-embeddings/sections/section-01-llm-internals/modules/module-01-training-tokenization/resources/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-01-llm-internals/modules/module-02-neural-networks-attention/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-01-llm-internals/modules/module-02-neural-networks-attention/assessments/knowledge-check.md
+phases/phase-02-llm-internals-embeddings/sections/section-01-llm-internals/modules/module-02-neural-networks-attention/labs/lab-02.md
+phases/phase-02-llm-internals-embeddings/sections/section-01-llm-internals/modules/module-02-neural-networks-attention/lectures/lecture-03-neural-networks-tensor-shapes-and-representations.md
+phases/phase-02-llm-internals-embeddings/sections/section-01-llm-internals/modules/module-02-neural-networks-attention/lectures/lecture-04-self-attention-causal-masks-and-transformer-blocks.md
+phases/phase-02-llm-internals-embeddings/sections/section-01-llm-internals/modules/module-02-neural-networks-attention/resources/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-01-representations-geometry/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-01-representations-geometry/assessments/knowledge-check.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-01-representations-geometry/labs/lab-03.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-01-representations-geometry/lectures/lecture-05-token-sentence-and-document-embeddings.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-01-representations-geometry/lectures/lecture-06-cosine-dot-product-euclidean-distance-and-normalization.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-01-representations-geometry/resources/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-02-embedding-pipeline/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-02-embedding-pipeline/assessments/knowledge-check.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-02-embedding-pipeline/labs/lab-04.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-02-embedding-pipeline/lectures/lecture-07-text-to-vectors-encoder-contracts-and-query-document-modes.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-02-embedding-pipeline/lectures/lecture-08-batching-persistence-and-reproducible-embedding-artifacts.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-02-embedding-pipeline/resources/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-03-model-selection/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-03-model-selection/assessments/knowledge-check.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-03-model-selection/labs/lab-05.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-03-model-selection/lectures/lecture-09-embedding-model-selection-and-practical-constraints.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-03-model-selection/lectures/lecture-10-controlled-comparisons-failure-slices-and-model-changes.md
+phases/phase-02-llm-internals-embeddings/sections/section-02-embedding-engineering/modules/module-03-model-selection/resources/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-03-semantic-search/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-03-semantic-search/modules/module-01-exact-search-evaluation/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-03-semantic-search/modules/module-01-exact-search-evaluation/assessments/knowledge-check.md
+phases/phase-02-llm-internals-embeddings/sections/section-03-semantic-search/modules/module-01-exact-search-evaluation/labs/lab-06.md
+phases/phase-02-llm-internals-embeddings/sections/section-03-semantic-search/modules/module-01-exact-search-evaluation/lectures/lecture-11-exact-semantic-search-and-stable-top-k-ranking.md
+phases/phase-02-llm-internals-embeddings/sections/section-03-semantic-search/modules/module-01-exact-search-evaluation/lectures/lecture-12-relevance-judgments-recall-k-mrr-and-honest-results.md
+phases/phase-02-llm-internals-embeddings/sections/section-03-semantic-search/modules/module-01-exact-search-evaluation/resources/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-04-system-design/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-04-system-design/modules/module-01-architecture-capacity/README.md
+phases/phase-02-llm-internals-embeddings/sections/section-04-system-design/modules/module-01-architecture-capacity/assessments/knowledge-check.md
+phases/phase-02-llm-internals-embeddings/sections/section-04-system-design/modules/module-01-architecture-capacity/labs/lab-07.md
+phases/phase-02-llm-internals-embeddings/sections/section-04-system-design/modules/module-01-architecture-capacity/lectures/lecture-13-versioned-embedding-and-local-search-architecture.md
+phases/phase-02-llm-internals-embeddings/sections/section-04-system-design/modules/module-01-architecture-capacity/lectures/lecture-14-capacity-failure-boundaries-and-the-phase-3-handoff.md
+phases/phase-02-llm-internals-embeddings/sections/section-04-system-design/modules/module-01-architecture-capacity/resources/README.md
+phases/phase-02-llm-internals-embeddings/study-plan.md
+phases/phase-02-llm-internals-embeddings/syllabus.md
+phases/phase-02-llm-internals-embeddings/system-design/embedding-search-case-study.md
+phases/phase-02-llm-internals-embeddings/validation.md
 phases/phase-03-vector-databases-rag/README.md
 phases/phase-04-advanced-rag/README.md
 phases/phase-05-ai-agents/README.md
@@ -107,6 +167,7 @@ projects/10-voice-booking-agent/SPEC.md
 projects/README.md
 projects/final-ai-saas-capstone/README.md
 projects/final-ai-saas-capstone/SPEC.md
+projects/phase-02-document-semantic-search/README.md
 pyproject.toml
 scripts/check_links.py
 scripts/run_python_tests.py
@@ -125,6 +186,7 @@ system-design/08-voice-ai-architecture/README.md
 system-design/09-evaluation-platform/README.md
 system-design/10-production-ai-saas/README.md
 system-design/README.md
+system-design/phase-02-embedding-search/README.md
 templates/README.md
 templates/assessment-template.md
 templates/lab-template.md

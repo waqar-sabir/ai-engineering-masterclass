@@ -2,7 +2,7 @@
 
 [Section](../../README.md) · [Phase home](../../../../README.md)
 
-Material status: In Review. Learner completion: Planned.
+Material status: Approved. Learner completion: Planned.
 
 ## Learning objectives and prerequisites
 

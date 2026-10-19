@@ -20,3 +20,9 @@ The requested portfolio projects are a separate catalog. Invoice processing, dat
 The user supplied `phase-1-python-llm-foundations.md` from their 2026-10-19 Codex output and requested that it be prepared in this repository. Phase 1 now maps the Research Assistant milestone to `projects/02-research-analyst` and Invoice Processing to the Day 5 structured-output lab. These mappings come from the supplied Phase 1 source. Other portfolio assignments remain pending. See [Phase 1 source and adaptation notes](../phases/phase-01-python-llm-foundations/resources/source-notes.md).
 
 The user subsequently clarified that this delivery must contain course resources and materials only. No project code or runtime dependencies are included in the Phase 1 change.
+
+## Phase 2 expanded teaching sources
+
+Phase 2 was explicitly requested using the exported “Review AI engineer interview prep” chat. That export contains the original Phase 2 roadmap snapshot, the source-of-truth correction excluding the earlier interview page, and the course-development requirements. Phase 2 follows Days 8–14 in that snapshot; lecture detail, labs, budgets, and evaluation contracts are authored enhancements. See [Phase 2 provenance and verification notes](../phases/phase-02-llm-internals-embeddings/resources/source-notes.md).
+
+The current materials were prepared in the new workspace after carrying forward the earlier repository foundation and Phase 1 documents. This does not imply the codebase described in the attached historical chat was imported; the current user scope is materials only.
