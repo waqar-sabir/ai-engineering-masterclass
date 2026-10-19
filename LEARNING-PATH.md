@@ -26,3 +26,7 @@ flowchart TD
 8. [Fine-Tuning + Model Optimization](phases/phase-08-fine-tuning-optimization/README.md) — Days 57–62.
 9. [LLMOps + Production AI](phases/phase-09-llmops-production/README.md) — Days 63–69.
 10. [Production AI Capstone](phases/phase-10-production-capstone/README.md) — Days 70–75.
+
+## Phase 1 materials
+
+Start with the [seven-day study plan](phases/phase-01-python-llm-foundations/study-plan.md). Phase 1 materials are In Review. Learner completion and implementation remain Planned; Phase 2 requires explicit approval.

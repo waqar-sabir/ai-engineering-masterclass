@@ -1,59 +1,70 @@
-# Invoice Processing Workflow — specification
+# Invoice Processing Workflow — Phase 1 lab specification
 
-Status: Planned. Replace author prompts with reviewed material before publishing.
+Material status: In Review. Implementation: Planned.
 
-## Problem statement
+[Lab 4 instructions](../../phases/phase-01-python-llm-foundations/sections/section-03-llm-apis-contracts-prompts/modules/module-02-structured-output-tool-contracts/labs/lab-04.md) · [Phase 1](../../phases/phase-01-python-llm-foundations/README.md)
 
-Author: specify problem statement with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
+**Time:** 2h 15m\
+**Purpose:** Integrate Python, model I/O, Pydantic, structured output, and domain validation. This is Project 1 from the extended portfolio list, scoped to Phase 1.
+
+**Mandatory MVP:** Extract from supplied invoice text. **Optional extension:** send a PDF/image to a vision-capable model after checking provider documentation and data-handling requirements.
+
+## Contract
+
+- Input: invoice text plus `document_id`.
+- Output: vendor, invoice number, issue/due dates, currency, line items, subtotal, tax, total, missing fields, arithmetic status, and warnings.
+- Rules: currency must be a 3-letter code; quantities/prices are non-negative; recompute subtotal and total with `Decimal`; never use binary float for money; flag rather than invent missing values.
+
+## Suggested structure
+
+```text
+src/invoice_workflow/
+├── models.py
+├── prompt.py
+├── extractor.py
+├── validators.py
+└── cli.py
+tests/invoice_workflow/
+├── fixtures/
+├── test_extractor.py
+└── test_validators.py
+```
+
+## Steps
+
+1. Create strict Pydantic models using `Decimal` and `date`.
+2. Write instructions that prohibit guessing and require `missing_fields`.
+3. Request structured output from the provider and parse it.
+4. Independently recompute arithmetic; do not ask the model to be the source of truth.
+5. Add fixtures: valid invoice, missing tax, incorrect stated total, duplicate invoice number, adversarial instruction inside invoice text.
+6. Test with a fake provider first, then one real call.
+
+**Expected outputs:** Valid invoice → `arithmetic_status="valid"`; incorrect total → `arithmetic_status="mismatch"` with expected total; absent due date → field is null and listed in `missing_fields`.
+
+**Common errors:** float rounding (use `Decimal`); schema too complex (simplify nesting); date ambiguity (preserve uncertainty or require ISO); invoice text says “ignore instructions” (treat it as data, not authority).
+
+**Acceptance criteria:** All fixtures produce valid contracts; arithmetic is deterministic; adversarial text cannot change the output schema or reveal secrets; README distinguishes extraction from verification.
 
 ## Business requirements
 
-Author: specify business requirements with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
+Extract a reviewable invoice record from supplied text, preserve missing fields, and distinguish extraction from arithmetic verification. Use synthetic invoices and never invent absent data.
 
-## Architecture
+## Architecture and technology
 
-Author: specify architecture with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
+Text input → versioned prompt → provider adapter → Pydantic contract → deterministic Decimal validator → JSON result. Python 3.12+, Pydantic, Decimal, an optional model SDK, and pytest are planned learner tools.
 
-## Technology stack
+## Data storage and API
 
-Author: specify technology stack with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
+No database or HTTP service is required. Persist local sanitized artifacts only. Input is document_id plus text; output follows the contract above. Duplicate invoice-number detection requires an explicit supplied batch or session history; one isolated extraction cannot detect global duplicates.
 
-## Database schema
+## Testing and evaluation
 
-Author: specify database schema with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
+Test shape/type validity separately from arithmetic, source consistency, missing-field handling, and adversarial-input behavior. Fake-provider tests establish application behavior only. A later live test is needed to assess extraction quality; do not claim injection immunity from a fake fixture.
 
-## API design
+## Security, deployment, and trade-offs
 
-Author: specify api design with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
-
-## Implementation milestones
-
-Author: specify implementation milestones with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
-
-## Repository structure
-
-Author: specify repository structure with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
-
-## Testing
-
-Author: specify testing with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
-
-## Evaluation
-
-Author: specify evaluation with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
-
-## Security
-
-Author: specify security with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
-
-## Deployment
-
-Author: specify deployment with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
-
-## System design trade-offs
-
-Author: specify system design trade-offs with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
+Keep invoice text out of logs, use synthetic data, and redact credentials. Local execution is sufficient. Vision, OCR, database persistence, duplicate-payment detection, deployment, and production approval workflows are outside this mandatory text-only lab.
 
 ## Completion criteria
 
-Author: specify completion criteria with concrete evidence, measurable criteria, and working links. Mark genuinely inapplicable items with a reason.
+The lab rubric governs future learner completion. No extraction code, test results, or live outputs are included at this materials stage.

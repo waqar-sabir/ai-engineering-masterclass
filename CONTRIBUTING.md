@@ -1,6 +1,6 @@
 # Contributing
 
-The repository foundation belongs on `main`. Do not generate Phase 1 before foundation approval. Create phase branches only when work begins:
+The repository foundation belongs on `main`. Phase 1 resources and teaching materials have been requested on `course/phase-01-foundations`. Application implementation is deferred by the owner. Create phase branches only when work begins:
 
 - `course/phase-01-foundations`
 - `course/phase-02-embeddings`

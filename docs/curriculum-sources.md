@@ -14,3 +14,9 @@ The requested portfolio projects are a separate catalog. Invoice processing, dat
 - [Phase 8: Fine-Tuning + Model Optimization](https://app.notion.com/p/3b761fa83eed8197afb1c4d1f8b766e4) — Specialized classification or extraction model.
 - [Phase 9: LLMOps + Production AI](https://app.notion.com/p/3b761fa83eed818aa1dff05ac8c01042) — Production hardening and AWS deployment.
 - [Phase 10: Production AI Capstone](https://app.notion.com/p/3b761fa83eed8189a190c064b39be9a8) — Production AI SaaS Capstone.
+
+## Phase 1 expanded teaching source
+
+The user supplied `phase-1-python-llm-foundations.md` from their 2026-10-19 Codex output and requested that it be prepared in this repository. Phase 1 now maps the Research Assistant milestone to `projects/02-research-analyst` and Invoice Processing to the Day 5 structured-output lab. These mappings come from the supplied Phase 1 source. Other portfolio assignments remain pending. See [Phase 1 source and adaptation notes](../phases/phase-01-python-llm-foundations/resources/source-notes.md).
+
+The user subsequently clarified that this delivery must contain course resources and materials only. No project code or runtime dependencies are included in the Phase 1 change.
