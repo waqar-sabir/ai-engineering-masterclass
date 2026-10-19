@@ -90,4 +90,4 @@ Four sections contain seven modules and fourteen individual lectures. Each modul
 
 ## Phase 3 preview
 
-Phase 3 introduces document ingestion, chunking, Qdrant/vector databases, and RAG. It builds on this phase’s encoder compatibility, exact-search reference, artifact identity, and relevance labels. [Phase 3 overview](../phase-03-vector-databases-rag/README.md) remains Planned; no detailed Phase 3 material is generated.
+Phase 3 introduces document ingestion, chunking, Qdrant/vector databases, and RAG. It builds on this phase’s encoder compatibility, exact-search reference, artifact identity, and relevance labels. [Phase 3 overview](../phase-03-vector-databases-rag/README.md) now has materials In Review following the owner’s instruction. All implementations remain Planned.

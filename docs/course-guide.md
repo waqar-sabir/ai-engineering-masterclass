@@ -13,3 +13,5 @@ Record status and evidence in [PROGRESS.md](../PROGRESS.md). Passing an assessme
 [Phase 1](../phases/phase-01-python-llm-foundations/README.md) contains the first prepared lecture/resource/lab/assessment set. Instructions and code snippets describe future learner exercises; application implementations are deferred. Track material review separately from learner completion.
 
 [Phase 2](../phases/phase-02-llm-internals-embeddings/README.md) continues the same materials-only workflow with per-module labs and checks, a separate final assessment/solution guide, and a document-search specification. Branches are created one phase at a time; current work uses `course/phase-02-embeddings`.
+
+[Phase 3](../phases/phase-03-vector-databases-rag/README.md) now covers vector stores, manual RAG, chunking/provenance, LangChain parity, four-format parsing, and introductory retrieval variants. Ten module labs and assessments feed the planned knowledge-assistant project. Current branch: `course/phase-03-rag` in the same Desktop/AI repository; implementation remains deferred for the whole course.

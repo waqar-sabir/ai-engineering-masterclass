@@ -1,6 +1,6 @@
 # Contributing
 
-The repository foundation belongs on `main`. Phase 1 materials used `course/phase-01-foundations`; the current Phase 2 materials use `course/phase-02-embeddings`. Application implementation is deferred by the owner. Create a new phase branch only when that phase is requested; do not pre-create later branches. Create phase branches only when work begins:
+The repository foundation belongs on `main`. Phase 1 materials used `course/phase-01-foundations`; Phase 2 materials use `course/phase-02-embeddings`; current Phase 3 materials use `course/phase-03-rag`. Application implementation is deferred by the owner. Create a new phase branch only when that phase is requested; do not pre-create later branches. Create phase branches only when work begins:
 
 - `course/phase-01-foundations`
 - `course/phase-02-embeddings`
