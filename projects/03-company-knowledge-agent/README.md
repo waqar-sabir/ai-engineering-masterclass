@@ -1,7 +1,7 @@
-# Company Knowledge Agent
+# Company Knowledge Agent — Phase 3 knowledge foundation
 
-Status: **Planned**. Specification scaffold only; no implementation.
+Material status: In Review. All implementation and learner execution: Planned.
 
-[Project catalog](../README.md) · [Course](../../README.md)
+[Enterprise Knowledge Assistant specification](SPEC.md) · [Phase 3 materials](../../phases/phase-03-vector-databases-rag/README.md)
 
-Phase assignment: pending review. Use [SPEC.md](SPEC.md) to develop the specification alongside the approved phase.
+This existing portfolio folder hosts the roadmap’s Phase 3 Enterprise Knowledge Assistant baseline. Qdrant, document parsing, chunking, manual/framework RAG, source provenance, and evaluation are specified here. Later LangGraph/pgvector agent capabilities remain future extensions; no autonomous agent, application source, or deployed service is included.

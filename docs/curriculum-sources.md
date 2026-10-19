@@ -26,3 +26,7 @@ The user subsequently clarified that this delivery must contain course resources
 Phase 2 was explicitly requested using the exported “Review AI engineer interview prep” chat. That export contains the original Phase 2 roadmap snapshot, the source-of-truth correction excluding the earlier interview page, and the course-development requirements. Phase 2 follows Days 8–14 in that snapshot; lecture detail, labs, budgets, and evaluation contracts are authored enhancements. See [Phase 2 provenance and verification notes](../phases/phase-02-llm-internals-embeddings/resources/source-notes.md).
 
 The current materials were prepared in the new workspace after carrying forward the earlier repository foundation and Phase 1 documents. This does not imply the codebase described in the attached historical chat was imported; the current user scope is materials only.
+
+## Phase 3 expanded teaching sources
+
+Phase 3 follows the Days 15–24 snapshot in the supplied roadmap chat, preserving the Qdrant/manual-RAG/chunking/LangChain/Docling/retrieval/project sequence. The owner approved Phase 1–2 materials and explicitly deferred all implementations. Lecture detail, labs, versioned ingestion/evidence contracts, evaluation protocol, and budgets are authored enhancements. See [Phase 3 provenance and verification notes](../phases/phase-03-vector-databases-rag/resources/source-notes.md).

@@ -24,7 +24,7 @@ Python, TypeScript, PostgreSQL, pgvector, Qdrant, LangChain, LangGraph, MCP, Fas
 | --- | --- | --- | --- |
 | 01 | 1–7 | [Python + LLM Foundations](phases/phase-01-python-llm-foundations/README.md) | Approved |
 | 02 | 8–14 | [LLM Internals + Embeddings](phases/phase-02-llm-internals-embeddings/README.md) | Approved |
-| 03 | 15–24 | [Vector Databases + RAG](phases/phase-03-vector-databases-rag/README.md) | Planned |
+| 03 | 15–24 | [Vector Databases + RAG](phases/phase-03-vector-databases-rag/README.md) | In Review |
 | 04 | 25–31 | [Advanced RAG](phases/phase-04-advanced-rag/README.md) | Planned |
 | 05 | 32–42 | [AI Agents](phases/phase-05-ai-agents/README.md) | Planned |
 | 06 | 43–49 | [Multi-Agent Systems](phases/phase-06-multi-agent-systems/README.md) | Planned |
@@ -45,12 +45,12 @@ See the [complete repository file inventory](docs/repository-structure.md).
 
 1. Follow [environment setup](docs/environment-setup.md).
 2. Read the [course guide](docs/course-guide.md).
-3. Review [progress](PROGRESS.md) and the Phase 1 overview.
-4. Follow the [Phase 1 study plan](phases/phase-01-python-llm-foundations/study-plan.md), then the [Phase 2 study plan](phases/phase-02-llm-internals-embeddings/study-plan.md).
+3. Review [progress](PROGRESS.md) and the material approval records.
+4. Follow the [Phase 1](phases/phase-01-python-llm-foundations/study-plan.md), [Phase 2](phases/phase-02-llm-internals-embeddings/study-plan.md), and [Phase 3](phases/phase-03-vector-databases-rag/study-plan.md) study plans in order.
 
 ## Course progress
 
-Phase 1 and Phase 2 materials are **Approved**. Phase 2 adds 14 lectures, seven guided labs, module/final assessments with separate solutions, a document semantic-search project brief, and an embedding-search architecture case study. All learner completion and project implementations remain **Planned**. Phases 3–10 remain **Planned**. See [progress tracking](PROGRESS.md).
+Phase 1 and Phase 2 materials are **Approved**. Phase 2 adds 14 lectures, seven guided labs, module/final assessments with separate solutions, a document semantic-search project brief, and an embedding-search architecture case study. Phase 3 materials are **In Review**: 20 lectures, ten lab guides, module/final assessments, a knowledge-assistant specification, and an ingestion/RAG case study. All learner completion and project implementations remain **Planned**. Phases 4–10 remain **Planned**. See [progress tracking](PROGRESS.md).
 
 ## Contributing and license
 

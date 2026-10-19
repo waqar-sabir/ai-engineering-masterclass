@@ -1,6 +1,6 @@
 # System design learning path
 
-Work through the proposed exercises in order. The first two exercise briefs are In Review as Phase 1 materials. All learner solutions remain Planned until reviewed; exercises 03–10 remain Planned.
+Work through the proposed exercises in order. The first two exercise briefs are Approved as Phase 1 materials. Exercise 03 is In Review as the Phase 3 ingestion/RAG case study. All learner solutions remain Planned; exercises 04–10 materials remain Planned.
 
 1. [Llm Application Architecture](01-llm-application-architecture/README.md)
 2. [Inference Gateway](02-inference-gateway/README.md)
@@ -15,4 +15,4 @@ Work through the proposed exercises in order. The first two exercise briefs are 
 
 ## Phase companions
 
-- [Phase 2 versioned embedding search](phase-02-embedding-search/README.md): design materials In Review; learner solution Planned. This companion supplements the numbered path.
+- [Phase 2 versioned embedding search](phase-02-embedding-search/README.md): design materials Approved; learner solution Planned. This companion supplements the numbered path.

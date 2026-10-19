@@ -1,6 +1,6 @@
 # Course syllabus
 
-The sequence and milestones below come from the supplied Notion roadmap. Prerequisites are repository planning guidance. Phase 1–2 materials are Approved; learner completion and Phases 3–10 remain Planned.
+The sequence and milestones below come from the supplied Notion roadmap. Prerequisites are repository planning guidance. Phase 1–2 materials are Approved; Phase 3 materials are In Review. All implementation/learner execution and Phases 4–10 materials remain Planned.
 
 ## Phase 01 — Python + LLM Foundations (Days 1–7)
 
@@ -24,7 +24,7 @@ Outcome: Build a complete RAG pipeline.
 
 Prerequisite: Phase 2 outcomes.
 
-Planned milestone: **Enterprise Knowledge Assistant**. [Phase overview](phases/phase-03-vector-databases-rag/README.md).
+Milestone specification: **Enterprise Knowledge Assistant**, the four-format RAG foundation in the Company Knowledge Agent portfolio folder. Materials: In Review; implementation: Planned. Five sections, ten modules, twenty lectures, ten labs, dedicated ingestion/system design, and separate assessment solutions. [Phase materials](phases/phase-03-vector-databases-rag/README.md) · [Detailed syllabus](phases/phase-03-vector-databases-rag/syllabus.md).
 
 ## Phase 04 — Advanced RAG (Days 25–31)
 

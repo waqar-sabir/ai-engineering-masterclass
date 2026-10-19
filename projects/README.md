@@ -1,6 +1,6 @@
 # Project catalog
 
-All project implementations are Planned. Phase 1 Research Assistant and Invoice Processing specifications are In Review. Folder numbers identify projects, not phases. Roadmap milestone names are preserved in the [syllabus](../COURSE-SYLLABUS.md); detailed mappings require phase review.
+All project implementations are Planned. Phase 1 Research Assistant and Invoice Processing materials are Approved. Phase 3 Company Knowledge/Enterprise Knowledge Assistant specifications are In Review. Folder numbers identify projects, not phases. Roadmap milestone names are preserved in the [syllabus](../COURSE-SYLLABUS.md); detailed mappings require phase review.
 
 - [Invoice Processing Workflow](01-invoice-processing/README.md)
 - [Research Analyst Agent](02-research-analyst/README.md)
@@ -16,4 +16,6 @@ All project implementations are Planned. Phase 1 Research Assistant and Invoice 
 
 ## Additional roadmap milestones
 
-- [Phase 2 Document Semantic Search](phase-02-document-semantic-search/README.md): specification In Review; implementation Planned. This supplements the ten named portfolio projects without renumbering them.
+- [Phase 2 Document Semantic Search](phase-02-document-semantic-search/README.md): specification Approved; implementation Planned. This supplements the ten named portfolio projects without renumbering them.
+
+The [Phase 3 Enterprise Knowledge Assistant specification](03-company-knowledge-agent/SPEC.md) defines the Qdrant/RAG knowledge foundation; later agent/pgvector capabilities remain future extensions.
